@@ -17,6 +17,7 @@ namespace BackOphelia2.Models
         public int? IdProducto { get; set; }
         public int? cantidad { get; set; }
 
+        public DateTime FechaVenta { get; set; }
         public int? Total { get; set; }
         public virtual Cliente IdClienteNavigation { get; set; }
         public virtual ICollection<DetalleVentum> DetalleVenta { get; set; }

@@ -45,6 +45,7 @@ namespace BackOphelia2.Controllers
         {
             try
             {
+                venta.FechaVenta = DateTime.Now;
                 _context.Add(venta);
                 await _context.SaveChangesAsync();
                 DetalleVentum detalle = new DetalleVentum();
