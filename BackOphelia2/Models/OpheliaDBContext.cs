@@ -49,11 +49,6 @@ namespace BackOphelia2.Models
                     .IsUnicode(false)
                     .HasColumnName("apellidos");
 
-                entity.Property(e => e.Correo)
-                    .HasMaxLength(40)
-                    .IsUnicode(false)
-                    .HasColumnName("correo");
-
                 entity.Property(e => e.Edad).HasColumnName("edad");
 
                 entity.Property(e => e.Nombres)

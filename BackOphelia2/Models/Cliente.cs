@@ -18,7 +18,6 @@ namespace BackOphelia2.Models
         public string Apellidos { get; set; }
         public int? Telefono { get; set; }
         public int? Edad { get; set; }
-        public string Correo { get; set; }
 
         public virtual ICollection<DetalleVentum> DetalleVenta { get; set; }
         public virtual ICollection<Venta> Venta { get; set; }
